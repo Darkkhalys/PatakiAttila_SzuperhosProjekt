@@ -10,7 +10,15 @@ namespace SzuperhosProjekt
     {
         public static void Main(string[] args)
         {
-           
+            try
+            {
+                Kepregeny.Beolv("szuperhosok.txt");
+                Kepregeny.Szuperhosok();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
 
             Console.ReadKey();  
         }
