@@ -6,13 +6,8 @@ using System.Threading.Tasks;
 
 namespace SzuperhosProjekt
 {
-    public class Program
+    public interface IMilliardos
     {
-        public static void Main(string[] args)
-        {
-           
-
-            Console.ReadKey();  
-        }
+        public void KutyutKeszit();
     }
 }

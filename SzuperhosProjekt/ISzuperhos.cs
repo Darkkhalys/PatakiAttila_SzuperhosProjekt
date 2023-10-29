@@ -6,13 +6,10 @@ using System.Threading.Tasks;
 
 namespace SzuperhosProjekt
 {
-    public class Program
+    public interface ISzuperhos
     {
-        public static void Main(string[] args)
-        {
-           
+        public bool LegyoziE(ISzuperhos szuperhos);
+        public double MekkoraAzEreje();
 
-            Console.ReadKey();  
-        }
     }
 }

@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace SzuperhosProjekt
 {
-    public class Program
+    public static class Kepregeny
     {
-        public static void Main(string[] args)
-        {
-           
 
-            Console.ReadKey();  
-        }
+
+
+
+
     }
 }
